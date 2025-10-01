@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="styleContatos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleContatos.css">
     <title>Contatos</title>
 </head>
+
 <body>
     <header>
         <div class="header_container_img">
@@ -24,9 +27,8 @@
             <form class="main_form">
                 <h1>Sobre você</h1>
                 <input class="main_input" placeholder="Nome" type="text" required>
-                <input class="main_input" placeholder="Sobrenome" type="text" required>
                 <input class="main_input" placeholder="E-mail" type="email" required>
-                <input class="main_input" placeholder="CPF" type="text" required>
+                <input class="main_input" placeholder="Contato" type="text" required>
                 <input class="main_input" placeholder="Telefone" type="text" required>
                 <select required>
                     <option value="" disabled selected>Selecione um motivo</option>
@@ -34,7 +36,9 @@
                     <option value="reclamacao">Reclamação</option>
                     <option value="solicitacao">Solicitação</option>
                 </select>
-                <input class="main_submit" type="submit" value="Enviar" >
+                <textarea id="main_input_msg" placeholder="Mensagem..." required></textarea>
+                <input class="main_submit" type="submit" value="Enviar">
+                <!---Inseri um input submit ao inves do button para melhor semantica-->
             </form>
         </section>
     </main>
@@ -44,9 +48,13 @@
                 <p>Redes Sociais</p>
             </div>
             <div class="footer_links">
-                <a href="https://www.facebook.com/FordBrasil/" target="_blank" rel="external"><img src="../imagens/img/facebook-50.png" alt="logo_facebook"></a>
-                <a href="https://www.youtube.com/@fordbrasil" target="_blank" rel="external"><img src="../imagens/img/youtube-squared-50.png" alt="logo_youtube"></a>
-                <a href="https://www.bing.com/ck/a?!&&p=db638c352c5f63761bd1dfafc064b7fe085df150febf480662a6d1b691df225dJmltdHM9MTc1ODc1ODQwMA&ptn=3&ver=2&hsh=4&fclid=11c3ee6c-8f22-6489-013c-f8218e2265c9&psq=instagram+ford&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9mb3JkYnJhc2lsLw" target="_blank" rel="external"><img src="../imagens/img/instagram-logo-50.png" alt="logo_instagram"></a>
+                <a href="https://www.facebook.com/FordBrasil/" target="_blank" rel="external"><img
+                        src="../imagens/img/facebook-50.png" alt="logo_facebook"></a>
+                <a href="https://www.youtube.com/@fordbrasil" target="_blank" rel="external"><img
+                        src="../imagens/img/youtube-squared-50.png" alt="logo_youtube"></a>
+                <a href="https://www.bing.com/ck/a?!&&p=db638c352c5f63761bd1dfafc064b7fe085df150febf480662a6d1b691df225dJmltdHM9MTc1ODc1ODQwMA&ptn=3&ver=2&hsh=4&fclid=11c3ee6c-8f22-6489-013c-f8218e2265c9&psq=instagram+ford&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9mb3JkYnJhc2lsLw"
+                    target="_blank" rel="external"><img src="../imagens/img/instagram-logo-50.png"
+                        alt="logo_instagram"></a>
             </div>
         </div>
         <div class="footer_container_copyright">
@@ -57,4 +65,5 @@
         </div>
     </footer>
 </body>
+
 </html>
