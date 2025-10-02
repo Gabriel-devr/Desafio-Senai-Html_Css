@@ -119,6 +119,11 @@ main {
   height: 100%;
 }
 
+.paragrafo {
+    text-align: center;
+    width: 90%;
+}
+
 .main_table_container {
     width: 60%;
     border-collapse: separate;
